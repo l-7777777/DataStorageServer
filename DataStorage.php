@@ -7,10 +7,6 @@
     <title>Data Server</title>
 </head>
 <body>
-    <div style="z-index: 1; position: fixed; top: 0px; right: 0px; background-color: rgba(0, 0, 0, 0.9); color: white; padding: 1%;">
-        <p>Connect: 192.168.86.37</p>
-    </div>
-
     <form method="POST" action="">
         <div class="textarea" spellcheck="false" data-gramm_editor="false" onfocus="this.style.animationName = 'textarea-enter'" onfocusout="this.style.animationName = 'textarea-leave'" onkeyup="document.getElementsByName('textarea')[0].value = this.textContent;" contenteditable>
             <?php
